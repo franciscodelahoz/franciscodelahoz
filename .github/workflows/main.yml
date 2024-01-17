@@ -2,7 +2,7 @@ name: Generate Resources
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 0 */15 * *'
 
   workflow_dispatch:
 
