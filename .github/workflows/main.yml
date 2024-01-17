@@ -36,4 +36,4 @@ jobs:
           git config --global user.email "github-stats[bot]@franciscodelahoz.github.io"
           git add ./output/languages.svg
           git commit -m '[Bot] Generated resources'
-          git push origin master
+          git push origin main
