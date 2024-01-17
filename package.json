@@ -1,0 +1,17 @@
+{
+  "name": "franciscodelahoz",
+  "version": "1.0.0",
+  "description": "My own github profile Readme.md",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file .env ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0"
+  }
+}
