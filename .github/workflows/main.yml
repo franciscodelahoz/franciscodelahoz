@@ -26,8 +26,9 @@ jobs:
       - name: Generate images
         run: npm run start
         env:
-          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
-          GITHUB_GRAPHQL_ENDPOINT: ${{ secrets.GITHUB_GRAPHQL_ENDPOINT }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_USERNAME: ${{ vars.GH_USERNAME }}
+          GH_GRAPHQL_ENDPOINT: ${{ vars.GH_GRAPHQL_ENDPOINT }}
 
       - name: Commit to the repository
         run: |
