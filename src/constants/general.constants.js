@@ -1,7 +1,7 @@
 export const environmentVariables = {
-  github_username: process.env.GITHUB_USERNAME,
-  github_token: process.env.GITHUB_TOKEN,
-  github_graphql_endpoint: process.env.GITHUB_GRAPHQL_ENDPOINT,
+  github_username: process.env.GH_USERNAME,
+  github_token: process.env.GH_TOKEN,
+  github_graphql_endpoint: process.env.GH_GRAPHQL_ENDPOINT,
 };
 
 export const defaultLimitPerPage = 10;
