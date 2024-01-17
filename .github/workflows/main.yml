@@ -1,13 +1,8 @@
 name: Generate Resources
 
 on:
-  push:
-    branches:
-      - master
-  workflow_dispatch:
-  
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "* * * * *"
 
 jobs:
   build:
