@@ -1,9 +1,13 @@
 name: Generate Resources
 
 on:
-  schedule:
-    - cron: "* * * * *"
+  push:
+    branches:
+      - master
   workflow_dispatch:
+  
+  schedule:
+    - cron: "0 */4 * * *"
 
 jobs:
   build:
@@ -24,6 +28,9 @@ jobs:
 
       - name: Generate images
         run: npm run start
+        env:
+          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+          GITHUB_GRAPHQL_ENDPOINT: ${{ secrets.GITHUB_GRAPHQL_ENDPOINT }}
 
       - name: Commit to the repository
         run: |
