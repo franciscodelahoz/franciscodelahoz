@@ -32,8 +32,17 @@ jobs:
 
       - name: Commit to the repository
         run: |
+
+          if [[ ! $(git status --porcelain) ]]; then
+            echo "No changes. Aborting commit and push."
+            exit 0
+          fi
+
           git config --global user.name "franciscodelahoz/github-stats"
           git config --global user.email "github-stats[bot]@franciscodelahoz.github.io"
+          
           git add ./output/languages.svg
+          
           git commit -m '[Bot] Generated resources'
+          
           git push origin main
