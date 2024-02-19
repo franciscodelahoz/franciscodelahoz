@@ -32,6 +32,7 @@ jobs:
 
       - name: Commit to the repository
         run: |
+          echo $(git status --porcelain)
           if [[ ! $(git status --porcelain) ]]; then
             echo "No changes. Aborting commit and push."
             exit 0
