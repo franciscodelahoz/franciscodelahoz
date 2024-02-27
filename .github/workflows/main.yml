@@ -41,11 +41,10 @@ jobs:
             exit 0
           fi
 
-          export TODAY=$(date -u '+%Y-%m-%d')
-          export MESSAGE="chore: regenerate $FILE_TO_COMMIT for $TODAY"
+          export MESSAGE="chore: Regenerated resources"
           export SHA=$(git rev-parse $DESTINATION_BRANCH:$FILE_TO_COMMIT)
           export CONTENT=$(base64 -i $FILE_TO_COMMIT)
-          
+
           gh api --method PUT /repos/:owner/:repo/contents/$FILE_TO_COMMIT \
             --field message="$MESSAGE" \
             --field content="$CONTENT" \

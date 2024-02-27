@@ -54,5 +54,9 @@ export const calculateLanguagePercentages = (languages) => {
     };
   }
 
-  return languagesStats;
+  const sortedLanguagesStats = Object.fromEntries(
+    Object.entries(languagesStats).sort(([, a], [, b]) => b.percentage - a.percentage)
+  );
+
+  return sortedLanguagesStats;
 };
