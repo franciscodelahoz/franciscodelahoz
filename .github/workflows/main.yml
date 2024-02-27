@@ -33,7 +33,7 @@ jobs:
       - name: Commit to the repository
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FILE_TO_COMMIT: ./output/languages.svg
+          FILE_TO_COMMIT: output/languages.svg
           DESTINATION_BRANCH: main
         run: |
           if [[ ! $(git status --porcelain) ]]; then
