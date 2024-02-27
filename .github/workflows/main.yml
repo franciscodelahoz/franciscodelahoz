@@ -31,17 +31,24 @@ jobs:
           GH_GRAPHQL_ENDPOINT: ${{ vars.GH_GRAPHQL_ENDPOINT }}
 
       - name: Commit to the repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FILE_TO_COMMIT: ./output/languages.svg
+          DESTINATION_BRANCH: main
         run: |
           if [[ ! $(git status --porcelain) ]]; then
             echo "No changes. Aborting commit and push."
             exit 0
           fi
 
-          git config --global user.name "franciscodelahoz/github-stats"
-          git config --global user.email "github-stats[bot]@franciscodelahoz.github.io"
+          export TODAY=$(date -u '+%Y-%m-%d')
+          export MESSAGE="chore: regenerate $FILE_TO_COMMIT for $TODAY"
+          export SHA=$(git rev-parse $DESTINATION_BRANCH:$FILE_TO_COMMIT)
+          export CONTENT=$(base64 -i $FILE_TO_COMMIT)
           
-          git add ./output/languages.svg
-          
-          git commit -m '[Bot] Generated resources'
-          
-          git push origin main
+          gh api --method PUT /repos/:owner/:repo/contents/$FILE_TO_COMMIT \
+            --field message="$MESSAGE" \
+            --field content="$CONTENT" \
+            --field encoding="base64" \
+            --field branch="$DESTINATION_BRANCH" \
+            --field sha="$SHA"
