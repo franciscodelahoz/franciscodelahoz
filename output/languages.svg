@@ -133,15 +133,15 @@
           <div>
             <span class="progress">
               
-  <span style="background-color: #3178c6;width: 58.44%;" class="progress-item"></span>
+  <span style="background-color: #3178c6;width: 58.55%;" class="progress-item"></span>
 
-  <span style="background-color: #f1e05a;width: 22.03%;" class="progress-item"></span>
+  <span style="background-color: #f1e05a;width: 22.00%;" class="progress-item"></span>
 
-  <span style="background-color: #e34c26;width: 7.41%;" class="progress-item"></span>
+  <span style="background-color: #e34c26;width: 7.40%;" class="progress-item"></span>
 
-  <span style="background-color: #563d7c;width: 6.05%;" class="progress-item"></span>
+  <span style="background-color: #563d7c;width: 5.99%;" class="progress-item"></span>
 
-  <span style="background-color: #a86454;width: 5.43%;" class="progress-item"></span>
+  <span style="background-color: #a86454;width: 5.42%;" class="progress-item"></span>
 
   <span style="background-color: #f34b7d;width: 0.64%;" class="progress-item"></span>
 
@@ -155,7 +155,7 @@
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">TypeScript</span>
-    <span class="percent">58.44%</span>
+    <span class="percent">58.55%</span>
   </li>
 
   <li style="animation-delay: 200ms;">
@@ -163,7 +163,7 @@
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">JavaScript</span>
-    <span class="percent">22.03%</span>
+    <span class="percent">22.00%</span>
   </li>
 
   <li style="animation-delay: 400ms;">
@@ -171,7 +171,7 @@
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">HTML</span>
-    <span class="percent">7.41%</span>
+    <span class="percent">7.40%</span>
   </li>
 
   <li style="animation-delay: 600ms;">
@@ -179,7 +179,7 @@
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">CSS</span>
-    <span class="percent">6.05%</span>
+    <span class="percent">5.99%</span>
   </li>
 
   <li style="animation-delay: 800ms;">
@@ -187,7 +187,7 @@
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">Pug</span>
-    <span class="percent">5.43%</span>
+    <span class="percent">5.42%</span>
   </li>
 
   <li style="animation-delay: 1000ms;">
