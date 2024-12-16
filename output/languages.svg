@@ -139,7 +139,7 @@
 
   <span style="background-color: #e34c26;width: 7.68%;" class="progress-item"></span>
 
-  <span style="background-color: #563d7c;width: 6.28%;" class="progress-item"></span>
+  <span style="background-color: #663399;width: 6.28%;" class="progress-item"></span>
 
   <span style="background-color: #a86454;width: 5.16%;" class="progress-item"></span>
 
@@ -175,7 +175,7 @@
   </li>
 
   <li style="animation-delay: 600ms;">
-    <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#563d7c;" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+    <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#663399;" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">CSS</span>
