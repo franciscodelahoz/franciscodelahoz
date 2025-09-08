@@ -3,9 +3,9 @@
 ## Hey! I'm Francisco De La Hoz 👋
 
 <samp>
-  <a href='https://franciscodelahoz.com/'>website</a> •
-  <a href='https://www.linkedin.com/in/franciscodelahoz18/'>linkedin</a> •
-  <a href='https://twitter.com/fdelahoz18'>twitter</a>
+  <a href='https://franciscodelahoz.com/'>Website</a> •
+  <a href='https://www.linkedin.com/in/franciscodelahoz18/'>LinkedIn</a> •
+  <a href='https://twitter.com/fdelahoz18'>Twitter</a>
 </samp>
 
 </div>
