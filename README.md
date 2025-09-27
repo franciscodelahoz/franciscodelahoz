@@ -13,7 +13,3 @@
 <p align="center">
   <img src="https://github.com/franciscodelahoz/franciscodelahoz/blob/main/output/languages.svg" alt="Languages usage percentage"/>
 </p>
-
-<div align="center">
-<small><strong>❯❯ Thanks for visiting! Feel free to explore my repositories below ↓ ❮❮</strong></small>
-</div>
