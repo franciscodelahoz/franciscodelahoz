@@ -133,7 +133,7 @@
           <div>
             <span class="progress">
               
-  <span style="background-color: #3178c6;width: 50.04%;" class="progress-item"></span>
+  <span style="background-color: #3178c6;width: 50.05%;" class="progress-item"></span>
 
   <span style="background-color: #f1e05a;width: 18.08%;" class="progress-item"></span>
 
@@ -149,7 +149,7 @@
 
   <span style="background-color: #a86454;width: 2.90%;" class="progress-item"></span>
 
-  <span style="background-color: #89e051;width: 1.20%;" class="progress-item"></span>
+  <span style="background-color: #89e051;width: 1.19%;" class="progress-item"></span>
 
   <span style="background-color: #427819;width: 0.45%;" class="progress-item"></span>
 
@@ -165,7 +165,7 @@
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">TypeScript</span>
-    <span class="percent">50.04%</span>
+    <span class="percent">50.05%</span>
   </li>
 
   <li style="animation-delay: 200ms;">
@@ -229,7 +229,7 @@
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">Shell</span>
-    <span class="percent">1.20%</span>
+    <span class="percent">1.19%</span>
   </li>
 
   <li style="animation-delay: 1800ms;">
