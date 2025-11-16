@@ -133,27 +133,25 @@
           <div>
             <span class="progress">
               
-  <span style="background-color: #3178c6;width: 50.05%;" class="progress-item"></span>
+  <span style="background-color: #3178c6;width: 53.46%;" class="progress-item"></span>
 
-  <span style="background-color: #f1e05a;width: 18.08%;" class="progress-item"></span>
+  <span style="background-color: #f1e05a;width: 19.31%;" class="progress-item"></span>
 
-  <span style="background-color: #00ADD8;width: 6.37%;" class="progress-item"></span>
+  <span style="background-color: #663399;width: 6.21%;" class="progress-item"></span>
 
-  <span style="background-color: #663399;width: 5.82%;" class="progress-item"></span>
+  <span style="background-color: #e34c26;width: 5.32%;" class="progress-item"></span>
 
-  <span style="background-color: #e34c26;width: 4.99%;" class="progress-item"></span>
+  <span style="background-color: #dea584;width: 5.30%;" class="progress-item"></span>
 
-  <span style="background-color: #dea584;width: 4.97%;" class="progress-item"></span>
+  <span style="background-color: #555555;width: 5.17%;" class="progress-item"></span>
 
-  <span style="background-color: #555555;width: 4.84%;" class="progress-item"></span>
+  <span style="background-color: #a86454;width: 3.10%;" class="progress-item"></span>
 
-  <span style="background-color: #a86454;width: 2.90%;" class="progress-item"></span>
+  <span style="background-color: #89e051;width: 1.28%;" class="progress-item"></span>
 
-  <span style="background-color: #89e051;width: 1.19%;" class="progress-item"></span>
+  <span style="background-color: #427819;width: 0.48%;" class="progress-item"></span>
 
-  <span style="background-color: #427819;width: 0.45%;" class="progress-item"></span>
-
-  <span style="background-color: #f34b7d;width: 0.34%;" class="progress-item"></span>
+  <span style="background-color: #f34b7d;width: 0.37%;" class="progress-item"></span>
 
             </span>
           </div>
@@ -165,7 +163,7 @@
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">TypeScript</span>
-    <span class="percent">50.05%</span>
+    <span class="percent">53.46%</span>
   </li>
 
   <li style="animation-delay: 200ms;">
@@ -173,79 +171,71 @@
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">JavaScript</span>
-    <span class="percent">18.08%</span>
+    <span class="percent">19.31%</span>
   </li>
 
   <li style="animation-delay: 400ms;">
-    <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#00ADD8;" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
-    </svg>
-    <span class="lang">Go</span>
-    <span class="percent">6.37%</span>
-  </li>
-
-  <li style="animation-delay: 600ms;">
     <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#663399;" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">CSS</span>
-    <span class="percent">5.82%</span>
+    <span class="percent">6.21%</span>
   </li>
 
-  <li style="animation-delay: 800ms;">
+  <li style="animation-delay: 600ms;">
     <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#e34c26;" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">HTML</span>
-    <span class="percent">4.99%</span>
+    <span class="percent">5.32%</span>
   </li>
 
-  <li style="animation-delay: 1000ms;">
+  <li style="animation-delay: 800ms;">
     <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#dea584;" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">Rust</span>
-    <span class="percent">4.97%</span>
+    <span class="percent">5.30%</span>
   </li>
 
-  <li style="animation-delay: 1200ms;">
+  <li style="animation-delay: 1000ms;">
     <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#555555;" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">C</span>
-    <span class="percent">4.84%</span>
+    <span class="percent">5.17%</span>
   </li>
 
-  <li style="animation-delay: 1400ms;">
+  <li style="animation-delay: 1200ms;">
     <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#a86454;" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">Pug</span>
-    <span class="percent">2.90%</span>
+    <span class="percent">3.10%</span>
   </li>
 
-  <li style="animation-delay: 1600ms;">
+  <li style="animation-delay: 1400ms;">
     <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#89e051;" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">Shell</span>
-    <span class="percent">1.19%</span>
+    <span class="percent">1.28%</span>
   </li>
 
-  <li style="animation-delay: 1800ms;">
+  <li style="animation-delay: 1600ms;">
     <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#427819;" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">Makefile</span>
-    <span class="percent">0.45%</span>
+    <span class="percent">0.48%</span>
   </li>
 
-  <li style="animation-delay: 2000ms;">
+  <li style="animation-delay: 1800ms;">
     <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#f34b7d;" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
     </svg>
     <span class="lang">C++</span>
-    <span class="percent">0.34%</span>
+    <span class="percent">0.37%</span>
   </li>
 
           </ul>
